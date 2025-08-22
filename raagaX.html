@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raagaX</title>
+    <link rel="stylesheet" href="raagaX.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <div class="sidebar1"></div>
+    <div class="sidebar">
+        <div class="logo-container">
+            <div class="logo-text">RaagaX</div>
+            <div >
+                <img  class="logo-image" src=./logo.png >
+            </div>
+        
+        </div>
+
+        <nav class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li class="menu-item">
+                    <a href="#Home">
+                    <div class="menu-icon"></div>
+                    <span>Home</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#explore">
+                        <div class="menu-icon"></div>
+                        <span>Explore</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#album">
+                        <div class="menu-icon"></div>
+                        <span>Albums</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Artists">
+                        <div class="menu-icon"></div>
+                        <span>Artists</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="library">
+            <h2>Library</h2>
+            <ul>
+                <li class="menu-item">
+                    <a href="#recent">
+                        <div class="menu-icon"></div>
+                        <span>Recent</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Albums">
+                        <div class="menu-icon"></div>
+                        <span>Albums</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Downloads">
+                        <div class="menu-icon"></div>
+                        <span>Downloads</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="playlists">
+            <h2>Playlists</h2>
+            <ul>
+                <li class="menu-item">
+                    <a href="#create new playlists">
+                        <div class="menu-icon"></div>
+                        <span>Create New Playlists</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Classical song">
+                        <div class="menu-icon"></div>
+                        <span>Classical Song</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Bollywood">
+                        <div class="menu-icon"></div>
+                        <span>Bollywood</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#Favourite">
+                        <div class="menu-icon"></div>
+                        <span>Favourite</span>
+                    </a>
+                </li> 
+                <li class="menu-item">
+                    <a href="#Tollywood">
+                        <div class="menu-icon"></div>
+                        <span>Tollywood</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="nav"> 
+        <div class="frame-4">
+            <span class="music">MUSIC</span>
+            <span class="raag">Raag</span>
+            <span class="history">History</span>
+        </div>
+
+    
+
+        <div class="frame-5">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type ="text" placeholder="Type your search here"> </span>
+            <!--<div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>-->
+            <div class="vector1"></div>
+        </div>
+
+        <div class="frame-17">
+            <div class="vector2"><i class="fa-regular fa-bell"></i></div>
+            <div class="settings-icon"><i class="fa-solid fa-gear"></i></div>
+            <div class="profile-image"> <i class="fa-regular fa-user"></i> </div>
+            <span class="profile-text">Profile</span>
+        </div>
+    </div>
+
+
+    <section id="Home">
+        <h1>Home</h1>
+         
+       
+    <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <p class="head">SONG NAME</p>
+        </div>
+        <div class="flip-card-back">
+            <p>Additional Info</p>
+        </div>
+    </div>
+    </div>
+            
+    <div class="audio-controls">
+        <button id="back-button" class="control-btn">Back</button>
+        <button id="play-button" class="control-btn">Play</button>
+        <button id="next-button" class="control-btn">Next</button>
+    </div>
+
+    <div id="lyrics-container">
+        <h2>lyrics</h2>
+        <p id="lyrics-display"></p>
+    </div>
+
+        <div class="group-2">
+            <!-- Rectangle 2 -->
+            <!-- <div class="rectangle-2"></div> -->
+            <!-- <div class="rectangle-10">
+                <div class="rectangle-9"></div>
+                <div class="rectangle-3"></div>
+            </div> -->
+            <div class="container noselect">
+                <div class="canvas">
+                  <div class="tracker tr-1"></div>
+                  <div class="tracker tr-2"></div>
+                  <div class="tracker tr-3"></div>
+                  <div class="tracker tr-4"></div>
+                  <div class="tracker tr-5"></div>
+                  <div class="tracker tr-6"></div>
+                  <div class="tracker tr-7"></div>
+                  <div class="tracker tr-8"></div>
+                  <div class="tracker tr-9"></div>
+                  <div id="card">
+                    <div class="card-content">
+                      <div class="card-glare"></div>
+                      <div class="cyber-lines">
+                        <span></span><span></span><span></span><span></span>
+                      </div>
+                      <p id="prompt"> </p>
+                      <div class="title">NOTES</div>
+                      <div class="glowing-elements">
+                        <div class="glow-1"></div>
+                        <div class="glow-2"></div>
+                        <div class="glow-3"></div>
+                      </div>
+                      <div class="subtitle">
+                        <span> </span>
+                        <span class="highlight">Song Notes </span>
+                      </div>
+                      <div class="card-particles">
+                        <span></span><span></span><span></span> <span></span><span></span
+                        ><span></span>
+                      </div>
+                      <div class="corner-elements">
+                        <span></span><span></span><span></span><span></span>
+                      </div>
+                      <div class="scan-line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+    </section>  
+    
+    <section id="Artists">
+        <h1>Artists</h1>
+        <div class="container1">
+           
+            <!-- Artist 1 -->
+             <div class="glass">
+                <div  class="artist-info">
+                    <img class="artist-photo" src="./artists/jagjit_singh/jagjit.jfif" alt="Jagjit Singh">
+                    <audio class="audio-player" id="audio-player-jagjit" src="./artists/jagjit_singh/jgsong1.mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio class="audio-player" id="audio-player-jagjit" src="./artists/jagjit_singh/jgsong2.mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                    <button class="artist-name" data-artist="Jagjit Singh">Jagjit Singh</button>
+                </div>
+                <ul class="song-list hidden">
+                    <li data-song="huthon se chuu lu" data-artist="Jagjit Singh" data-src="./artists/jagjit_singh/jgsong1.mp3">Huthon se chuu lu</li>
+                    <li data-song="random" data-artist="Jagjit Singh" data-src="./artists/jagjit_singh/jgsong2.mp3">Haath Chute bhi toh rishtey nahi chhota karte</li>
+                    
+                </ul>
+            </div>  
+           
+
+          
+
+            <!-- Artist 2 -->
+            <div class="glass">
+                <div class="artist-info">
+                    <audio class="audio-player-ankit"  src="./artists/ankit_tiwari/atsong2.mp3 ">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio class="audio-player-ankit2" src="./artists/ankit_tiwari/atsong3.mp3 ">
+                        Your browser does not support the audio element.
+                    </audio> 
+                    <button class="artist-name" data-artist="Ankit Tiwari">Ankit Tiwari</button>
+                </div>
+                <ul class="song-list hidden">
+                    <li data-song="teri galliyan" data-artist="Ankit Tiwari" data-src="./artists/ankit_tiwari/atsong2.mp3">Song B1</li>
+                    <li data-song="song 2" data-artist="Ankit Tiwari" data-src="./artists/ankit_tiwari/atsong3.mp3">Song B1</li>
+                </ul>
+            </div>
+            <!-- Artist 3 -->
+            <div class="glass">
+                <div class="artist-info">
+                    <audio class="audio-player-darshan"   src="/artists/DARSHAN RAVAL/drsong1.mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio class="audio-player-darshan2"   src="./artists/DARSHAN RAVAL/drsong2.mp3 ">
+                        Your browser does not support the audio element.
+                    </audio> 
+                    <button class="artist-name" data-artist="Darshan Raval">Darshan Raval</button>
+                </div>
+                <ul class="song-list hidden">
+                    <li data-song="Saari ki Saari" data-artist="Darshan Raval" data-src="./artists/DARSHAN RAVAL/drsong1.mp3">Song B1</li>
+                    <li data-song="ek ladki ko dekha toh" data-artist="Darshan Raval" data-src="./artists/DARSHAN RAVAL/drsong2.mp3 ">Song B1</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="raagaX.js"></script>
+</body>
+</html>
